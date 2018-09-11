@@ -8,15 +8,15 @@
 	<name>halo</name>
 
 	<description>
-		halo，一个基于SpringBoot的博客系统，最求轻快，易用，以内容为中心。
+		Viewer，一个基于SpringBoot的博客系统，最求轻快，易用，以内容为中心。
 	</description>
 
 	<developers>
 		<developer>
-			<id>ruibaby</id>
-			<name>Ryan Wang</name>
-			<email>i@ryanc.cc</email>
-			<url>https://ryanc.cc</url>
+			<id>coldxiangyu</id>
+			<name>Chao Wang</name>
+			<email>coldxiangyu@qq.com</email>
+			<url>http://47.95.210.109:8090/</url>
 		</developer>
 	</developers>
 
