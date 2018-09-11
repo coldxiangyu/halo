@@ -1,6 +1,7 @@
 package cc.ryanc.halo.web.interceptor;
 
 import cc.ryanc.halo.model.dto.HaloConst;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -16,6 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author : RYAN0UP
  * @date : 2017/12/13
  */
+@Slf4j
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
     @Override
@@ -25,6 +27,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         if (null != obj) {
             return true;
         }
+        log.error("Session已过期，跳转登录页面！");
         //否则拦截并跳转到登录
         response.sendRedirect("/admin/login");
         return false;

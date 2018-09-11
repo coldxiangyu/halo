@@ -32,23 +32,23 @@
     <loggers>
         <logger name="org.apache.http" level="ERROR"/>
         <!-- Spring -->
-        <logger name="org.springframework" level="INFO"/>
+        <logger name="org.springframework" level="ERROR"/>
         <!-- sql loggers -->
         <logger name="java.sql.Connection" level="ERROR" additivity="true"/>
         <logger name="java.sql.Statement" level="ERROR" additivity="true"/>
         <logger name="java.sql.PreparedStatement" level="ERROR" additivity="true"/>
         <logger name="java.sql.ResultSet" level="ERROR" additivity="true"/>
-        <logger name="org.apache" level="INFO"/>
+        <logger name="org.apache" level="ERROR"/>
 
         <!-- 对包进行更详细的配置 -->
         <!-- additivity表示是否追加,防止重复,因为root已经接收过一次了 -->
-        <logger name="cc.ryanc.halo.repository" level="INFO" additivity="true">
+        <logger name="cc.ryanc.halo.repository" level="ERROR" additivity="true">
             <appender-ref ref="db_log"/>
         </logger>
-        <logger name="cc.ryanc.halo.web.controller" level="INFO" additivity="false">
+        <logger name="cc.ryanc.halo.web.controller" level="ERROR" additivity="false">
             <appender-ref ref="service_log"/>
         </logger>
-        <logger name="cc.ryanc.halo.service" level="INFO" additivity="false">
+        <logger name="cc.ryanc.halo.service" level="ERROR" additivity="false">
             <appender-ref ref="service_log"/>
         </logger>
         <!-- root logger,一般用于放置所有的appender -->

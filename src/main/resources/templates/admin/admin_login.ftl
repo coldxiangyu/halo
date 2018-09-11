@@ -17,7 +17,7 @@
 <body>
 <div class="container login-form">
     <div class="login-logo animated fadeInUp">
-        Halo
+        Viewer
     </div>
     <div class="login-body animated">
         <form>
