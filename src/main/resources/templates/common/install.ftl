@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
         <meta name="renderer" content="webkit">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Halo安装向导</title>
+        <title>Viewer安装向导</title>
         <link rel="stylesheet" href="/static/plugins/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/static/css/AdminLTE.min.css">
         <link rel="stylesheet" href="/static/plugins/animate/animate.min.css">

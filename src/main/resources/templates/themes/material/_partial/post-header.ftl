@@ -15,7 +15,7 @@
 <#if options.theme_material_scheme?if_exists == "Isolation">
     <div class="post-header_info without-thumbnail">
         <!-- Author Avatar & Name -->
-        <img src="${user.userAvatar?default('/material/source/img/avatar.png')}" class="avatar-img" width="44px" height="44px" alt="${user.userDisplayName?default('halo')}'s avatar">
-        <span class="name-span">${user.userDisplayName?default('halo')}</span>
+        <img src="${user.userAvatar?default('/material/source/img/avatar.png')}" class="avatar-img" width="44px" height="44px" alt="${user.userDisplayName?default('viewer')}'s avatar">
+        <span class="name-span">${user.userDisplayName?default('viewer')}</span>
     </div>
 </#if>

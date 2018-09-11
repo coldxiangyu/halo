@@ -6,7 +6,7 @@
     </div>
     <!-- Author Name & Date -->
     <div>
-        <strong>${user.userDisplayName?default('halo')}</strong>
+        <strong>${user.userDisplayName?default('viewer')}</strong>
         <span>${post.postDate?string("MM月 dd,yyyy")}</span>
     </div>
 

@@ -9,7 +9,7 @@
                 <#if options.anatole_style_hitokoto?default("false")=="true">
                     <p id="yiyan">获取中...</p>
                 <#else >
-                    <p>${user.userDesc?default("A other Halo theme")}</p>
+                    <p>${user.userDesc?default("A other Viewer theme")}</p>
                 </#if>
             </div>
         </div>
@@ -20,7 +20,7 @@
             <span>Designed by </span>
             <a href="https://www.caicai.me">CaiCai</a>
             <div class="by_halo">
-                <a href="https://github.com/ruibaby/halo" target="_blank">Proudly published with Halo&#65281;</a>
+                <a href="https://github.com/coldxiangyu" target="_blank">Proudly published with Viewer&#65281;</a>
             </div>
             <div class="footer_text">
                 <@footer_info></@footer_info>
