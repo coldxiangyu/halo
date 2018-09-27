@@ -120,7 +120,7 @@
                                     <label for="anatoleStyleRightIcon" class="col-sm-4 control-label">右上角图标：</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="anatoleStyleRightIcon" name="anatole_style_right_icon" value="${options.anatole_style_right_icon?default("/anatole/source/images/logo.png")}" >
+                                            <input type="text" class="form-control" id="anatoleStyleRightIcon" name="anatole_style_right_icon" value="${options.anatole_style_right_icon?default("/anatole/source/images/dog.png")}" >
                                             <span class="input-group-btn">
                                                 <button class="btn btn-default btn-flat" type="button" onclick="openAttach('anatoleStyleRightIcon')">选择</button>
                                             </span>

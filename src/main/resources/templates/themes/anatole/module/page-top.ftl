@@ -15,7 +15,7 @@
             </li>
         </div>
         <div class="avatar">
-            <img src="${options.anatole_style_right_icon?default("http://getdrawings.com/img/male-silhouette-logo-1.jpg")}" />
+            <img src="${options.anatole_style_right_icon?default("/anatole/source/images/dog.png")}" />
         </div>
     </div>
 </div>

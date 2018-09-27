@@ -4,7 +4,7 @@
 <div class="sidebar animated fadeInDown">
     <div class="logo-title">
         <div class="title">
-            <img src="${options.blog_logo?default("http://getdrawings.com/img/male-silhouette-logo-1.jpg")}" style="width:300px;<#if options.anatole_style_avatar_circle?default('false')=='true'>border-radius:50%</#if>" />
+            <img src="${options.blog_logo!"/templates/themes/anatole/source/images/dog.png"}" style="width:200px;<#if options.anatole_style_avatar_circle?default('false')=='true'>border-radius:50%</#if>" />
             <h3 title="">
                 <a href="/">${options.blog_title?default("ANATOLE")}</a>
             </h3>
