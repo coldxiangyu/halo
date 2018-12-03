@@ -12,7 +12,7 @@
                 <#if options.anatole_style_hitokoto?default("false")=="true">
                     <p id="yiyan">获取中...</p>
                 <#else >
-                    <p>${user.userDesc?default("a place to write,tec or just mood！")}</p>
+                    <p><img alt="今日诗词" src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=grey" style="max-width:70%; display: block; margin: 0 auto;"></p>
                 </#if>
             </div>
         </div>
